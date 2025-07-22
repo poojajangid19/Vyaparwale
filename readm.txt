@@ -1,0 +1,82 @@
+webclient id : 663467097294-m6pg94f5l3600rr4tcbo57eujbfaeps9.apps.googleusercontent.com
+androidid : 663467097294-khi5efui5dgt2usubq8sv1vqvbaqn7r5.apps.googleusercontent.com
+https://auth.expo.io/@pjrocks/my-auth-app
+com.authapp
+
+
+https://apnavayapaayar.firebaseapp.com/__/auth/handler
+
+https://auth.expo.io/@anonymous/my-auth-app
+
+
+androidid : 663467097294-khi5efui5dgt2usubq8sv1vqvbaqn7r5.apps.googleusercontent.com
+
+
+com.authapp
+
+https://auth.expo.io/@pjrocks/my-auth-app
+
+https://auth.expo.io/@pjrocks/apnavaayapaar
+
+
+
+get yout project id command =>
+
+npx eas-cli init
+
+projectid : b5ecf3af-cb07-449c-8c43-06c4cd8333f7
+
+slug update in app.json => npx eas update --branch main --message "Publishing my auth app"
+
+
+
+to make apk 
+
+============
+
+npm install -g eas-cli
+eas login
+eas build:configure
+eas build -p android --profile preview
+
+
+to make apk
+================
+1. Add npm global bin to your PATH
+Open your terminal and run:
+
+echo 'export PATH=$PATH:/Users/poojajangid/.npm-global/bin' >> ~/.zshrc
+
+
+
+source ~/.zshrc
+
+eas --version
+
+eas login
+
+eas build -p android --profile preview
+The first time you run this, EAS will ask to configure your project (eas.json). Say yes.
+
+5. Download APK after build completes
+Once the build finishes (Expo builds it in the cloud), it will give you a download link. Use that link to download the .apk and install it on your phone.
+
+Would you like me to help generate the eas.json config file now?
+
+
+
+
+
+
+
+make 
+
+
+
+Tools
+
+
+
+========
+
+rm -rf node_modules package-lock.json && npm cache clean --force && npm install

@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "apnavaayapaar",
+    "slug": "poojajangid",
+    "owner": "pjrocks",
+    "scheme": "com.authapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.authapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "runtimeVersion": "1.0.0"
+    },
+    "plugins": [
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b5ecf3af-cb07-449c-8c43-06c4cd8333f7"
+      },
+      "firebase": {
+        "webClientId": "663467097294-m6pg94f5l3600rr4tcbo57eujbfaeps9.apps.googleusercontent.com", 
+        "authRedirect": "com.authapp:/oauth2redirect/google"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b5ecf3af-cb07-449c-8c43-06c4cd8333f7"
+    },
+    "ios": {
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    }
+  }
+}
