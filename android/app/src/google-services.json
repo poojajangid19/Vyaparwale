@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "663467097294",
+    "project_id": "apnavayapaayar",
+    "storage_bucket": "apnavayapaayar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663467097294:android:838dd04ab68b23790ae49f",
+        "android_client_info": {
+          "package_name": "com.authapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663467097294-khi5efui5dgt2usubq8sv1vqvbaqn7r5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.authapp",
+            "certificate_hash": "441378066478366faf26a05c46d28ef224168477"
+          }
+        },
+        {
+          "client_id": "663467097294-m6pg94f5l3600rr4tcbo57eujbfaeps9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqIEeh8Q1IyaQo9P1r-s21je9XDdCzlLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663467097294-kuggi8ht8qk68nenbk8ndq8906n76lsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
